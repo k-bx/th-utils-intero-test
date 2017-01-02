@@ -25,3 +25,5 @@ Type :intro and press enter for an introduction of the standard commands.
     • In the untyped splice: $(shamletFileRelative "data/foo.hamlet")
 Failed, modules loaded: Utils.
 ```
+
+Intero itself also errors at the same place (near `$` symbol).
