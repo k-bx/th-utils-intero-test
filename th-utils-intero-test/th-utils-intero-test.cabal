@@ -26,5 +26,4 @@ executable th-utils-intero-test
                      , template-haskell
                      , text
                      , th-utilities
-  other-modules:       Inner.Module
-                     , Utils
+
