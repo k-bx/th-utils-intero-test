@@ -15,13 +15,16 @@ extra-source-files:  README.md
 
 executable th-utils-intero-test
   hs-source-dirs:      src
+  ghc-options:         -Wall
   main-is:             Main.hs
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       aeson
+                     , base >= 4.7 && < 5
                      , blaze-html
                      , shakespeare
                      , string-class
                      , template-haskell
                      , text
                      , th-utilities
-  other-modules:       Utils
+  other-modules:       Inner.Module
+                     , Utils
